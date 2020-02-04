@@ -6,11 +6,7 @@ services:
   - postgresql
   - redis-server
 
-cache:
-  directories:
-    - bin
-    - lib
-    - .shards
+cache: shards
 
 env:
   - TEST_SUITE=./spec/build_spec_granite.cr
