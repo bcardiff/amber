@@ -19,8 +19,10 @@ dependencies:
     version: ~> 0.3.0
 
   cli:
-    github: amberframework/cli
-    version: ~> 0.9.1
+    github: bcardiff/cli
+    branch: crystal/0.35.1
+    # github: drujensen/cli
+    # version: ~> 0.9.1
 
   compiled_license:
     github: elorest/compiled_license
